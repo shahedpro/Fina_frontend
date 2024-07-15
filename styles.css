@@ -1,0 +1,21 @@
+/* Custom CSS for Flower Sales website */
+
+.hero-section {
+    background: url('images/Orange\ Gold\ Sunrise\ Minimalist\ Flowers\ Field\ March\ Calendar\ Desktop\ Wallpaper.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 3.5rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+  }
+  

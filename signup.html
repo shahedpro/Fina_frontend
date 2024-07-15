@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - Flower Sales</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"> <!-- Link to custom styles -->
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Flower Sales</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="signup.html">Sign up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sign Up Section -->
+  <div class="container mt-4">
+    <h1>Sign Up</h1>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-warning text-white pt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>Flower Sales</h5>
+          <p>Discover a wide variety of fresh flowers for every occasion.</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Home</a></li>
+            <li><a href="shop.html" class="text-white">Shop</a></li>
+            <li><a href="about.html" class="text-white">About</a></li>
+            <li><a href="contact.html" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Contact Us</h5>
+          <ul class="list-unstyled">
+            <li>Email: info@flowersales.com</li>
+            <li>Phone: +1 234 567 890</li>
+            <li>Address: 123 Flower St, City, Country</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Follow Us</h5>
+          <ul class="list-unstyled d-flex">
+            <li><a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark text-center py-3">
+      <p class="mb-0">&copy; 2024 Flower Sales. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script> <!-- Link to custom JavaScript -->
+</body>
+</html>
